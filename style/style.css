@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 1em;
+}
+
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+  float: left;
+}
+
+.main {
+  width: 80%;
+  padding: 1em;
+  float: left;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+}
+
+.border {
+  border: 8px double #0A2342;
+}
+
+.background {
+  background-color: #3A7CA5;
+}
+
+h1, p {
+  color: #0A2342;
+}
+
+a:link, a:hover, a:visited, a:active {
+  color: #0A2342;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
