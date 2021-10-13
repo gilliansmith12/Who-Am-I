@@ -6,6 +6,10 @@
   padding: 1em;
 }
 
+.header h1 {
+  text-align: center;
+}
+
 .navigation {
   width: 20%;
   padding: 0.5em;
@@ -16,6 +20,12 @@
   width: 80%;
   padding: 1em;
   float: left;
+}
+
+.main p,.main ul {
+  float: left;
+  max-width: 80%;
+  padding-right: 1em;
 }
 
 .footer {
@@ -31,7 +41,17 @@
   background-color: #3A7CA5;
 }
 
-h1, p {
+.right-images {
+  float: right;
+  max-width: 20%;
+}
+
+.right-images img {
+  max-width:100%;
+  height:auto;
+}
+
+h1, h3, ul, p {
   color: #0A2342;
 }
 
